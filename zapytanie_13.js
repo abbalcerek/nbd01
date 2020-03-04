@@ -1,14 +1,20 @@
 // Listę unikalnych zawodów;
 
 // with aggregate
-print(" -------- result aggregate --------")
+print(" -------- result aggregate 1 --------")
 db.people.aggregate([
     { $group: { _id: "$job" } }
 ]).forEach(e => printjsononeline(e))
 
+print(" -------- result aggregate 2 --------")
+db.people.aggregate([
+    { $group: { _id: "job", "jobSet": {$addToSet: "$job" } } },
+    { $project: {"jobSet": 1, _id: 0}}
+]).forEach(e => printjsononeline(e))
+
 // distinct
 print("--------- distinct result")
-db.people.distinct("job")
+printjsononeline(db.people.distinct("job"))
 
 // with map reduce
 let resultMapReduce = db.people.mapReduce(

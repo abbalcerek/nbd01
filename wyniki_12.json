@@ -21,8 +21,8 @@
 {  "_id" : "DOP",  "totalBalancePerCurrency" : NumberDecimal("534069.77") }
 {  "_id" : "TJS",  "totalBalancePerCurrency" : NumberDecimal("177401.05") }
 {  "_id" : "JMD",  "totalBalancePerCurrency" : NumberDecimal("201447.71") }
-{  "_id" : "SOS",  "totalBalancePerCurrency" : NumberDecimal("82203.48") }
 {  "_id" : "KHR",  "totalBalancePerCurrency" : NumberDecimal("100447.58") }
+{  "_id" : "SOS",  "totalBalancePerCurrency" : NumberDecimal("82203.48") }
 {  "_id" : "ANG",  "totalBalancePerCurrency" : NumberDecimal("21354.39") }
 {  "_id" : "RUB",  "totalBalancePerCurrency" : NumberDecimal("8532474.09") }
 {  "_id" : "KMF",  "totalBalancePerCurrency" : NumberDecimal("138004.70") }
@@ -57,8 +57,8 @@
 {  "_id" : "KZT",  "totalBalancePerCurrency" : NumberDecimal("584923.20") }
 {  "_id" : "BOB",  "totalBalancePerCurrency" : NumberDecimal("257433.54") }
 {  "_id" : "AUD",  "totalBalancePerCurrency" : NumberDecimal("242667.03") }
-{  "_id" : "TND",  "totalBalancePerCurrency" : NumberDecimal("325755.90") }
 {  "_id" : "VND",  "totalBalancePerCurrency" : NumberDecimal("1395639.11") }
+{  "_id" : "TND",  "totalBalancePerCurrency" : NumberDecimal("325755.90") }
 {  "_id" : "LTL",  "totalBalancePerCurrency" : NumberDecimal("220627.42") }
 {  "_id" : "PHP",  "totalBalancePerCurrency" : NumberDecimal("8223429.02") }
 {  "_id" : "ETB",  "totalBalancePerCurrency" : NumberDecimal("269686.62") }
@@ -118,8 +118,8 @@
 {  "_id" : "GEL",  "totalBalancePerCurrency" : NumberDecimal("157276.96") }
 {  "_id" : "ZWL",  "totalBalancePerCurrency" : NumberDecimal("142978.86") }
 {  "_id" : "IDR",  "totalBalancePerCurrency" : NumberDecimal("15619806.11") }
-{  "_id" : "ALL",  "totalBalancePerCurrency" : NumberDecimal("651597.87") }
 {  "_id" : "GBP",  "totalBalancePerCurrency" : NumberDecimal("243512.86") }
+{  "_id" : "ALL",  "totalBalancePerCurrency" : NumberDecimal("651597.87") }
 {  "_id" : "NOK",  "totalBalancePerCurrency" : NumberDecimal("760113.61") }
 {  "_id" : "ERN",  "totalBalancePerCurrency" : NumberDecimal("21598.47") }
 {  "_id" : "BYR",  "totalBalancePerCurrency" : NumberDecimal("686489.84") }
@@ -131,13 +131,13 @@
 {  "_id" : "BSD",  "totalBalancePerCurrency" : NumberDecimal("55361.39") }
 {  "_id" : "MMK",  "totalBalancePerCurrency" : NumberDecimal("223284.76") }
 {  "_id" : "ZAR",  "totalBalancePerCurrency" : NumberDecimal("932463.66") }
-{  "_id" : "RWF",  "totalBalancePerCurrency" : NumberDecimal("43299.96") }
-{  "_id" : "NIO",  "totalBalancePerCurrency" : NumberDecimal("240664.87") }
 {  "_id" : "GMD",  "totalBalancePerCurrency" : NumberDecimal("157963.90") }
-{  "_id" : "MDL",  "totalBalancePerCurrency" : NumberDecimal("173318.73") }
-{  "_id" : "JPY",  "totalBalancePerCurrency" : NumberDecimal("2584824.90") }
-{  "_id" : "NPR",  "totalBalancePerCurrency" : NumberDecimal("146606.65") }
 {  "_id" : "PEN",  "totalBalancePerCurrency" : NumberDecimal("2356548.02") }
+{  "_id" : "JPY",  "totalBalancePerCurrency" : NumberDecimal("2584824.90") }
+{  "_id" : "MDL",  "totalBalancePerCurrency" : NumberDecimal("173318.73") }
+{  "_id" : "NPR",  "totalBalancePerCurrency" : NumberDecimal("146606.65") }
+{  "_id" : "NIO",  "totalBalancePerCurrency" : NumberDecimal("240664.87") }
+{  "_id" : "RWF",  "totalBalancePerCurrency" : NumberDecimal("43299.96") }
 {  "_id" : "MYR",  "totalBalancePerCurrency" : NumberDecimal("666533.65") }
 {  "_id" : "CHF",  "totalBalancePerCurrency" : NumberDecimal("108940.64") }
 {  "_id" : "DJF",  "totalBalancePerCurrency" : NumberDecimal("14734.27") }
@@ -274,7 +274,7 @@
 		},
 		{
 			"_id" : "CNY",
-			"value" : 27425502.269999966
+			"value" : 27425502.269999962
 		},
 		{
 			"_id" : "COP",
@@ -326,7 +326,7 @@
 		},
 		{
 			"_id" : "EUR",
-			"value" : 16700089.28
+			"value" : 16700089.279999997
 		},
 		{
 			"_id" : "FJD",
@@ -590,7 +590,7 @@
 		},
 		{
 			"_id" : "PLN",
-			"value" : 5065738.3599999985
+			"value" : 5065738.36
 		},
 		{
 			"_id" : "PYG",
@@ -702,7 +702,7 @@
 		},
 		{
 			"_id" : "TZS",
-			"value" : 603855.99
+			"value" : 603855.9900000001
 		},
 		{
 			"_id" : "UAH",
@@ -773,11 +773,11 @@
 			"value" : 142978.86000000002
 		}
 	],
-	"timeMillis" : 256,
+	"timeMillis" : 311,
 	"counts" : {
 		"input" : 9877,
 		"emit" : 29844,
-		"reduce" : 2018,
+		"reduce" : 2015,
 		"output" : 154
 	},
 	"ok" : 1
